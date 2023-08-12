@@ -13,11 +13,9 @@ function AboutMe(props) {
       ]);
   return(
     <div>
-    <h1>This page shows some data manipulation</h1>
+    <h1>This page shows some data gathering</h1>
     <Fruits fruits={fruits}/>
     <FruitsCounter fruits={fruits}/>
-    <Btn />
-    <Btn2 />
     </div>
   )
 }
