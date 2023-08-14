@@ -7,10 +7,13 @@ import blankFace from '../assets/blank.jpg'
 
 function Card(props) {
 
+  console.log(people)
+
   return (
     <Container>
+    <h1> Welcome to the People Page</h1>
       {people.map((person) => (
-        <div key={person.id} className="cards col-7">
+        <div key={person.id} className="cards col-6">
           <Row>
             <Col xs={4}>
             {person.image ? (

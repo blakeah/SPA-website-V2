@@ -12,7 +12,6 @@ function HomePage(props) {
 
   return(
     <div>
-    <h3>This Page Shows a set of custom cards pulling from JSON data </h3>
     <Card people={people} />
     </div>
   )

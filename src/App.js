@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './components/styles/App.css';
 import './components/styles/Cards.css';
 import './components/styles/Navbar.css'
-import Header from './components/Header.js'
 import Nav from './components/Nav.js'
 import Article from './components/Article.js'
 import Promo from './components/Promo.js'

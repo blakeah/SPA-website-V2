@@ -5,8 +5,8 @@ function Nav() {
       <header>
         <nav>
             <ul>
-                <li><Link to="/">Page 1</Link></li>
-                <li><Link to="/about-me">Page 2</Link></li>
+                <li><Link to="/">People Page</Link></li>
+                <li><Link to="/about-me">Counter Page</Link></li>
                 <li><Link to="/article">Article Page</Link></li>
             </ul>
         </nav>
