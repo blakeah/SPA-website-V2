@@ -1,5 +1,5 @@
+import { CssBaseline } from "@mui/material";
 import logo from './logo.svg';
-
 import './components/styles/App.css';
 import './components/styles/Cards.css';
 import './components/styles/Navbar.css'
@@ -11,6 +11,7 @@ import Footer from './components/Footer.js'
 import HomePage from './components/HomePage.js'
 import AboutMe from './components/AboutMe.js'
 import {Routes, Route, Link} from 'react-router-dom'
+import people from './data/people.json'
 
 
 

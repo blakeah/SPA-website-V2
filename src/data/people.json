@@ -1,0 +1,53 @@
+[
+{
+    "id" : 1,
+    "name" : "Jemmy overy",
+    "image" : "https://t4.ftcdn.net/jpg/03/65/25/97/360_F_365259768_VvzeAFci9xrSQPC9E4ldJ4zG1LcMqoKC.webp",
+    "data" : {
+      "age": 30,
+      "address": {
+         "street": "123 Main St",
+         "city": "New York",
+         "state": "NY",
+         "zip": "10001"
+      },
+      "phones": [
+         "123-456-7890"
+      ]
+    }
+},
+{
+    "id" : 2,
+    "name" : "John Smith",
+    "image" : "",
+    "data" : {
+      "age": 27,
+      "address": {
+         "street": "223 Other St",
+         "city": "New York",
+         "state": "NY",
+         "zip": "10013"
+      },
+      "phones": [
+         "123-456-7890"
+      ]
+  }
+},
+{
+    "id" : 3,
+    "name" : "Rick Someone",
+    "image" : "",
+    "data" : {
+      "age": 20,
+      "address": {
+         "street": "Laight St",
+         "city": "New York",
+         "state": "NY",
+         "zip": "10013"
+      },
+      "phones": [
+         "123-456-7890"
+      ]
+    }
+}
+]
