@@ -8,3 +8,23 @@
   background-color:  #fff;
   box-shadow: 2px 2px 5px grey
 }
+
+.personFocus {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  background-color:  #fff;
+}
+
+.circular--square {
+  align-items: center;
+  border-radius: 50%;
+}
+
+.personFocus-left {
+  background-color: red;
+}
+
+.personFocus-right {
+  background-color: blue;
+}

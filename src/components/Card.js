@@ -13,9 +13,9 @@ function Card({ person }) {
       <Row>
         <Col xs={4}>
         {person.image ? (
-            <img src={person.image} alt={person.name} style={{ width: '100%' }} />
+            <img src={person.image} alt={person.name} className="circular--square" style={{ width: '60%' }} />
           ) : (
-            <img src={blankFace} alt="Blank Face" style={{ width: '100%' }} />
+            <img src={blankFace} alt="Blank Face" className="circular--square" style={{ width: '60%' }} />
         )}
         </Col>
         <Col >
