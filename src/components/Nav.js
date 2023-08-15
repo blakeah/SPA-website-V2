@@ -5,9 +5,10 @@ function Nav() {
       <header>
         <nav>
             <ul>
-                <li><Link to="/">People Page</Link></li>
-                <li><Link to="/about-me">Counter Page</Link></li>
-                <li><Link to="/article">Article Page</Link></li>
+                <li><Link to="/">Home Page</Link></li>
+                <li><Link to="/people-page">People Page</Link></li>
+                <li><Link to="/about-me">AboutMe</Link></li>
+                <li><Link to="/blog-page">Blog Page</Link></li>
             </ul>
         </nav>
       </header>
