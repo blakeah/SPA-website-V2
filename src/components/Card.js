@@ -9,7 +9,7 @@ import blankFace from '../assets/blank.jpg'
 function Card({ person }) {
   return (
     <Container>
-    <div className="cards col-7">
+    <div className="cards col-9">
       <Row>
         <Col xs={4}>
         {person.image ? (
