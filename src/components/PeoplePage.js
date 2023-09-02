@@ -10,7 +10,7 @@ function PeoplePage() {
     <div>
       <h1>People Page</h1>
       {people.map((person) => (
-        <Link key={person.id} to={`/people-page/${person.id}`}>
+        <Link className="link-styles" key={person.id} to={`/people-page/${person.id}`}>
           <Card person={person} />
         </Link>
       ))}
