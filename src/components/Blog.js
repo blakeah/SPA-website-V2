@@ -14,7 +14,7 @@ const Blog = () => {
   }
 
   useEffect(() => {
-    console.log("use effect ran")
+
   })
 
   return (

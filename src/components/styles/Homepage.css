@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background: url('https://d117h1jjiq768j.cloudfront.net/images/default-source/products/datadirect/solutions-hero-background.svg?sfvrsn=ec55abfb_12') center/cover no-repeat;
+    text-align: left;
+    padding: 20px;
+    height: 500px;
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Bottom Section Styles */
+main {
+    background-color: #0074d9;
+    height: 1000px;
+    padding: 40px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.column {
+    flex-basis: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
